@@ -1,0 +1,102 @@
+:root {
+  --primary-color: #009063;
+  --content-color: #3b3b3b;
+}
+ul {
+  width: 100%;
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  font-size: 1.12rem;
+}
+
+li:hover {
+  /* background-color: aqua; */
+  color: var(--primary-color);
+}
+
+li .active {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+.add {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+.add input {
+  width: 80%;
+  padding: 14px 8px;
+  background-color: whitesmoke;
+  border: none;
+}
+.add button {
+  font-size: 1.8rem;
+  border: none;
+  /* width: 10%; */
+  background: var(--primary-color);
+  padding: 4px 12px;
+  color: white;
+}
+.navbar {
+  width: 100%;
+  position: relative;
+}
+
+.headers {
+  width: 100%;
+  position: relative;
+  /* border: 1px solid #606664; */
+}
+
+.box {
+  position: absolute;
+  left: 400px;
+  top: 110px;
+}
+
+/* .headers .addtext {
+  position: absolute;
+  top: 200px;
+  left: 1000px;
+} */
+
+.headers li {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.842);
+  margin: 4px 0;
+  letter-spacing: 1px;
+  width: 100%;
+  padding: 8px 4px;
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: space-between;
+}
+
+.headers li i {
+  margin-left: 15px;
+}
+
+.box div input {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 10px;
+}
+
+.box div button {
+  display: block;
+  width: 100%;
+  background-color: #009063;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+  padding: 8px 16px;
+  letter-spacing: 2px;
+}
